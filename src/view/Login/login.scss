@@ -1,0 +1,41 @@
+.login{
+    background-color: #fff;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .top{
+        border-bottom: 2px solid #f2f5f0;
+        .logo-wrap{
+            overflow: hidden;
+            background-color: #fff;
+            .logo{
+                display: block;
+                width: 334px;
+                height: 60px;
+                background: url('/public/images/login/logo512.png');
+            }
+        }
+    }
+
+    .main-body{
+        $background-color:antiquewhite;
+        background-color: #fff;
+        .login-box-wrapper{
+            height: 650px;
+            background-color: $background-color;
+            padding: 89px 0 32px;
+            .login-box{
+                background-color: #fff;
+                margin: 0 auto;
+                height: 605px;
+            }
+        }
+    }
+    .bottom{
+        .copy-right{
+            text-align: center;
+        }
+        
+    }
+}
